@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: 03.26(일) 도현이의 돌잔치에 초대합니다.
+email: kohhok6@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 twitter_username:
-github_username:
+github_username: kwonohhyeok
 
 # Build settings
 markdown: kramdown
