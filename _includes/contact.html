@@ -9,8 +9,21 @@
 
             </div>
         </div>
-        <a href="#clip" class="btn btn-primary btn-xl page-scroll" style="background-color: skyblue;" onclick="clip()">
+        <a class="btn btn-primary btn-xl page-scroll" style="background-color: skyblue;" onclick="clip()">
             계좌번호 복사하기
         </a>
     </div>
 </section>
+<script>
+    function clip() {
+        var url = '';
+        var textarea = document.createElement("textarea");
+        document.body.appendChild(textarea);
+        url = '새마을금고 9002199470166 권도현';
+        textarea.value = url;
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        alert("계좌번호가 복사되었습니다.\n필요하신 곳에 붙여넣기 하세요!")
+    };
+</script>
